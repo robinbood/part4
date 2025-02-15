@@ -8,12 +8,8 @@ blogsRouter.post('/',async (request, response) => {
     response.status(201).json(result)
 })
 
-blogsRouter.get('/', (request, response) => {
-    Blog
-        .find({})
-        .then(blogs => {
-            response.json(blogs)
-        })
+blogsRouter.get('/', async(request, response) => {
+    const blogs = await Blog.find({})
+    response.status(200).json(blogs)
 })
-
 module.exports=blogsRouter
