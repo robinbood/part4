@@ -17,14 +17,11 @@ const mostBlogs = (blogs) => {
     }
     return blogs.reduce((initial,current) => initial.author === current.author ? initial.author: current.author)
 }
-const mostLikes = (blogs) => {
-    return blogs.reduce((initial,current) => initial.likes > current.likes ? initial.author : current.author, blogs [0] )
-}
 
 module.exports = {
     dummy,
     totalLikes,
     favoriteBlog,
     mostBlogs,
-    mostLikes
+    
 }

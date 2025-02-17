@@ -1,3 +1,4 @@
+const User = require("../models/user")
 const initial = [
     {
         title:'me',
@@ -9,6 +10,12 @@ const initial = [
     }
 ]
 
+const usersInDb = async () => {
+    const users = await User.find({})
+    return users.map(u => u.toJSON())
+}
+
 module.exports= {
-    initial
+    initial,
+    usersInDb
 }

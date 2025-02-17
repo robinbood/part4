@@ -1,7 +1,2 @@
-POST http://localhost:3003/api/blogs
+GET  http://localhost:3003/api/blogs
 Content-Type: application/json
-
-{
-    "title":"How to play Uno",
-    "author":"Ahmed "
-}
