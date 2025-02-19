@@ -2,9 +2,9 @@ POST  http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-    "title": "whkashjkjhjghjgkhkjdjow",
-    "author":"wowk jhshkjhjhdjhghjakjhasjkhd",
-    "url":"isthis",
-    "likes" :5,
+    "title": "whkashkjhkjhjkhkjhjkjhjg786876hjgkhkjdjow",
+    "author":"wowk jkjhjkhhshkjhjhd876786786jhghjakjhasjkhd",
+    "url":"isth876876kjhkjh6786is",
+    "likes" :56,
     "userId" : "67b20f05778ab4d47f2edddf"
 }
